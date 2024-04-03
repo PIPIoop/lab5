@@ -1,0 +1,46 @@
+body{
+	background: linear-gradient(#b3788b,#354e69);
+	background-attachment: fixed;
+
+}
+canvas {
+      border: 2px solid black;
+      position: absolute;
+      transform: translate(417px, 100px);
+      border-radius: 25px;
+    }
+.startGame{
+	border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+	margin: 0;
+	width: 500px;
+	height:150px;
+	background: None;
+	font-size: 60px;
+}
+.invisibale{
+	transition: 1s;
+	opacity: 0;
+}
+
+.border{
+
+}
+
+#pacman{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    transition: top 0.1s, left 0.1s;
+    transform: translate(650px, 350px);
+    }
+.visibale{
+	opacity:0;
+}
+
